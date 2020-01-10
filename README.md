@@ -1,21 +1,43 @@
 # Crud-jsp
 
-This is a crossword generator that creates a crossword given the size of the grid.
-It is not that efficient and it can sometimes make mistakes. The algorithm that finds the words that are fitting to the grid puts the words to the grid by the words length.What i mean is the largest word would be the first one being solved.
+This is a Create-Read-Update-Delete based program that uses jsp. It is connected to a database named "idk" and will operate on a table named "smth".
+The file table.jsp shows the database table 
 
 
 ## This is how it works;
 
- **Step1: Enter the grid size and click generate**
+ **table.jsp file is showing the database without any data **
   
-  ![](images/beginning.png)
+  ![](img/blank.png)
   
   
-  **Step2: After clicking generate, to see the solved crossword click create and then click generate**
+  **After clicking Add New Data, it will transfer you to a new page to add new data **
   
-  ![](images/grid.png)
+  ![](img/addNewData.png)
   
-  **Step3: This is the solved crossword**
+  **After adding the data "Jane Doe" addNew.jsp file will tranfer you to table.jsp **
   
-  ![](images/solved.png)
+  ![](img/afterAddingNewData.png)
+  
+  **Add a few more data**
+  
+  ![](img/addedFewMoreData.png)
+  
+  **Searched "Doe" to find Jane Doe in the table**
+  
+  ![](img/searchedDOE.png)
+  
+  **Searched "am" to find words that has "am" in it **
+  
+  ![](img/searched-AM-.png)
+  
+  **Delete Ash Williams **
+  
+  ![](img/delete.png)
+  
+  ![](img/afterDelete.png)
+  
+  **Edit Adam Francis's name to Adam Francisco **
+  
+  ![](img/afterEdit.png)
 d
