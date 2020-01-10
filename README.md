@@ -8,7 +8,7 @@ The file table.jsp shows the database table
 
  **table.jsp file is showing the database without any data**
   
-    ![](img/blank.png)
+   ![](img/blank.png)
   
   
   **After clicking Add New Data, it will transfer you to a new page to add new data**
